@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9948D505-974E-47EA-A8D4-C3916D093A6A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>89A771BC1668D2A2618737153292734C70CB8BCD</key>
+		<string>https://github.com/emkosz/BarRoulette.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BarRoulette/BarRoulette.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>89A771BC1668D2A2618737153292734C70CB8BCD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/emkosz/BarRoulette.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>89A771BC1668D2A2618737153292734C70CB8BCD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>89A771BC1668D2A2618737153292734C70CB8BCD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BarRoulette</string>
+		</dict>
+	</array>
+</dict>
+</plist>
