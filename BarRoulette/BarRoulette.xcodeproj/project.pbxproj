@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B995ED0A1B71698400513AA8 /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CA4F5D1B70666200D31E8F /* search.swift */; };
+		B995ED0B1B71698800513AA8 /* NSURLRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA4F611B71634000D31E8F /* NSURLRequest+OAuth.m */; };
+		B995ED331B7169FA00513AA8 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED0F1B7169FA00513AA8 /* NSMutableURLRequest+Parameters.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B995ED341B7169FA00513AA8 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED111B7169FA00513AA8 /* NSString+URLEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B995ED351B7169FA00513AA8 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED131B7169FA00513AA8 /* NSURL+Base.m */; };
+		B995ED361B7169FA00513AA8 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = B995ED151B7169FA00513AA8 /* Base64Transcoder.c */; };
+		B995ED371B7169FA00513AA8 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = B995ED171B7169FA00513AA8 /* hmac.c */; };
+		B995ED381B7169FA00513AA8 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = B995ED191B7169FA00513AA8 /* sha1.c */; };
+		B995ED391B7169FA00513AA8 /* OACall.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED1C1B7169FA00513AA8 /* OACall.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B995ED3A1B7169FA00513AA8 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED1E1B7169FA00513AA8 /* OAConsumer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B995ED3B1B7169FA00513AA8 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED201B7169FA00513AA8 /* OADataFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B995ED3C1B7169FA00513AA8 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED221B7169FA00513AA8 /* OAHMAC_SHA1SignatureProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B995ED3D1B7169FA00513AA8 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED241B7169FA00513AA8 /* OAMutableURLRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B995ED3E1B7169FA00513AA8 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED261B7169FA00513AA8 /* OAPlaintextSignatureProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B995ED3F1B7169FA00513AA8 /* OAProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED281B7169FA00513AA8 /* OAProblem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B995ED401B7169FA00513AA8 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED2A1B7169FA00513AA8 /* OARequestParameter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B995ED411B7169FA00513AA8 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED2C1B7169FA00513AA8 /* OAServiceTicket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B995ED421B7169FA00513AA8 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED2F1B7169FA00513AA8 /* OAToken.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B995ED431B7169FA00513AA8 /* OATokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED311B7169FA00513AA8 /* OATokenManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B9CA4F3B1B63154D00D31E8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CA4F3A1B63154D00D31E8F /* AppDelegate.swift */; };
 		B9CA4F3D1B63154D00D31E8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CA4F3C1B63154D00D31E8F /* ViewController.swift */; };
 		B9CA4F401B63154D00D31E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CA4F3E1B63154D00D31E8F /* Main.storyboard */; };
@@ -26,6 +45,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B995ED0E1B7169FA00513AA8 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
+		B995ED0F1B7169FA00513AA8 /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
+		B995ED101B7169FA00513AA8 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		B995ED111B7169FA00513AA8 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		B995ED121B7169FA00513AA8 /* NSURL+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Base.h"; sourceTree = "<group>"; };
+		B995ED131B7169FA00513AA8 /* NSURL+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Base.m"; sourceTree = "<group>"; };
+		B995ED151B7169FA00513AA8 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		B995ED161B7169FA00513AA8 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		B995ED171B7169FA00513AA8 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		B995ED181B7169FA00513AA8 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		B995ED191B7169FA00513AA8 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		B995ED1A1B7169FA00513AA8 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		B995ED1B1B7169FA00513AA8 /* OACall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OACall.h; sourceTree = "<group>"; };
+		B995ED1C1B7169FA00513AA8 /* OACall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OACall.m; sourceTree = "<group>"; };
+		B995ED1D1B7169FA00513AA8 /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAConsumer.h; sourceTree = "<group>"; };
+		B995ED1E1B7169FA00513AA8 /* OAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAConsumer.m; sourceTree = "<group>"; };
+		B995ED1F1B7169FA00513AA8 /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OADataFetcher.h; sourceTree = "<group>"; };
+		B995ED201B7169FA00513AA8 /* OADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OADataFetcher.m; sourceTree = "<group>"; };
+		B995ED211B7169FA00513AA8 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		B995ED221B7169FA00513AA8 /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		B995ED231B7169FA00513AA8 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAMutableURLRequest.h; sourceTree = "<group>"; };
+		B995ED241B7169FA00513AA8 /* OAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAMutableURLRequest.m; sourceTree = "<group>"; };
+		B995ED251B7169FA00513AA8 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
+		B995ED261B7169FA00513AA8 /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
+		B995ED271B7169FA00513AA8 /* OAProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAProblem.h; sourceTree = "<group>"; };
+		B995ED281B7169FA00513AA8 /* OAProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAProblem.m; sourceTree = "<group>"; };
+		B995ED291B7169FA00513AA8 /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OARequestParameter.h; sourceTree = "<group>"; };
+		B995ED2A1B7169FA00513AA8 /* OARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OARequestParameter.m; sourceTree = "<group>"; };
+		B995ED2B1B7169FA00513AA8 /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAServiceTicket.h; sourceTree = "<group>"; };
+		B995ED2C1B7169FA00513AA8 /* OAServiceTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAServiceTicket.m; sourceTree = "<group>"; };
+		B995ED2D1B7169FA00513AA8 /* OASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OASignatureProviding.h; sourceTree = "<group>"; };
+		B995ED2E1B7169FA00513AA8 /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
+		B995ED2F1B7169FA00513AA8 /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
+		B995ED301B7169FA00513AA8 /* OATokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OATokenManager.h; sourceTree = "<group>"; };
+		B995ED311B7169FA00513AA8 /* OATokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OATokenManager.m; sourceTree = "<group>"; };
+		B995ED321B7169FA00513AA8 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
 		B9CA4F351B63154D00D31E8F /* BarRoulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarRoulette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CA4F391B63154D00D31E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9CA4F3A1B63154D00D31E8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +91,10 @@
 		B9CA4F4A1B63154D00D31E8F /* BarRouletteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarRouletteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CA4F4F1B63154D00D31E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9CA4F501B63154D00D31E8F /* BarRouletteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarRouletteTests.swift; sourceTree = "<group>"; };
+		B9CA4F5D1B70666200D31E8F /* search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = search.swift; sourceTree = "<group>"; };
+		B9CA4F5F1B71633F00D31E8F /* BarRoulette-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarRoulette-Bridging-Header.h"; sourceTree = "<group>"; };
+		B9CA4F601B71634000D31E8F /* NSURLRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+OAuth.h"; sourceTree = "<group>"; };
+		B9CA4F611B71634000D31E8F /* NSURLRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+OAuth.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +115,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B995ED0C1B7169FA00513AA8 /* OAuthConsumer */ = {
+			isa = PBXGroup;
+			children = (
+				B995ED0D1B7169FA00513AA8 /* Categories */,
+				B995ED141B7169FA00513AA8 /* Crytpo */,
+				B995ED1B1B7169FA00513AA8 /* OACall.h */,
+				B995ED1C1B7169FA00513AA8 /* OACall.m */,
+				B995ED1D1B7169FA00513AA8 /* OAConsumer.h */,
+				B995ED1E1B7169FA00513AA8 /* OAConsumer.m */,
+				B995ED1F1B7169FA00513AA8 /* OADataFetcher.h */,
+				B995ED201B7169FA00513AA8 /* OADataFetcher.m */,
+				B995ED211B7169FA00513AA8 /* OAHMAC_SHA1SignatureProvider.h */,
+				B995ED221B7169FA00513AA8 /* OAHMAC_SHA1SignatureProvider.m */,
+				B995ED231B7169FA00513AA8 /* OAMutableURLRequest.h */,
+				B995ED241B7169FA00513AA8 /* OAMutableURLRequest.m */,
+				B995ED251B7169FA00513AA8 /* OAPlaintextSignatureProvider.h */,
+				B995ED261B7169FA00513AA8 /* OAPlaintextSignatureProvider.m */,
+				B995ED271B7169FA00513AA8 /* OAProblem.h */,
+				B995ED281B7169FA00513AA8 /* OAProblem.m */,
+				B995ED291B7169FA00513AA8 /* OARequestParameter.h */,
+				B995ED2A1B7169FA00513AA8 /* OARequestParameter.m */,
+				B995ED2B1B7169FA00513AA8 /* OAServiceTicket.h */,
+				B995ED2C1B7169FA00513AA8 /* OAServiceTicket.m */,
+				B995ED2D1B7169FA00513AA8 /* OASignatureProviding.h */,
+				B995ED2E1B7169FA00513AA8 /* OAToken.h */,
+				B995ED2F1B7169FA00513AA8 /* OAToken.m */,
+				B995ED301B7169FA00513AA8 /* OATokenManager.h */,
+				B995ED311B7169FA00513AA8 /* OATokenManager.m */,
+				B995ED321B7169FA00513AA8 /* OAuthConsumer.h */,
+			);
+			path = OAuthConsumer;
+			sourceTree = "<group>";
+		};
+		B995ED0D1B7169FA00513AA8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B995ED0E1B7169FA00513AA8 /* NSMutableURLRequest+Parameters.h */,
+				B995ED0F1B7169FA00513AA8 /* NSMutableURLRequest+Parameters.m */,
+				B995ED101B7169FA00513AA8 /* NSString+URLEncoding.h */,
+				B995ED111B7169FA00513AA8 /* NSString+URLEncoding.m */,
+				B995ED121B7169FA00513AA8 /* NSURL+Base.h */,
+				B995ED131B7169FA00513AA8 /* NSURL+Base.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B995ED141B7169FA00513AA8 /* Crytpo */ = {
+			isa = PBXGroup;
+			children = (
+				B995ED151B7169FA00513AA8 /* Base64Transcoder.c */,
+				B995ED161B7169FA00513AA8 /* Base64Transcoder.h */,
+				B995ED171B7169FA00513AA8 /* hmac.c */,
+				B995ED181B7169FA00513AA8 /* hmac.h */,
+				B995ED191B7169FA00513AA8 /* sha1.c */,
+				B995ED1A1B7169FA00513AA8 /* sha1.h */,
+			);
+			path = Crytpo;
+			sourceTree = "<group>";
+		};
 		B9CA4F2C1B63154D00D31E8F = {
 			isa = PBXGroup;
 			children = (
@@ -80,9 +198,14 @@
 				B9CA4F3A1B63154D00D31E8F /* AppDelegate.swift */,
 				B9CA4F3C1B63154D00D31E8F /* ViewController.swift */,
 				B9CA4F3E1B63154D00D31E8F /* Main.storyboard */,
+				B9CA4F601B71634000D31E8F /* NSURLRequest+OAuth.h */,
+				B9CA4F611B71634000D31E8F /* NSURLRequest+OAuth.m */,
+				B9CA4F5D1B70666200D31E8F /* search.swift */,
 				B9CA4F411B63154D00D31E8F /* Images.xcassets */,
 				B9CA4F431B63154D00D31E8F /* LaunchScreen.xib */,
+				B995ED0C1B7169FA00513AA8 /* OAuthConsumer */,
 				B9CA4F381B63154D00D31E8F /* Supporting Files */,
+				B9CA4F5F1B71633F00D31E8F /* BarRoulette-Bridging-Header.h */,
 			);
 			path = BarRoulette;
 			sourceTree = "<group>";
@@ -212,8 +335,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B995ED381B7169FA00513AA8 /* sha1.c in Sources */,
+				B995ED421B7169FA00513AA8 /* OAToken.m in Sources */,
+				B995ED3C1B7169FA00513AA8 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				B995ED351B7169FA00513AA8 /* NSURL+Base.m in Sources */,
+				B995ED341B7169FA00513AA8 /* NSString+URLEncoding.m in Sources */,
+				B995ED3F1B7169FA00513AA8 /* OAProblem.m in Sources */,
+				B995ED431B7169FA00513AA8 /* OATokenManager.m in Sources */,
+				B995ED3A1B7169FA00513AA8 /* OAConsumer.m in Sources */,
+				B995ED0B1B71698800513AA8 /* NSURLRequest+OAuth.m in Sources */,
+				B995ED401B7169FA00513AA8 /* OARequestParameter.m in Sources */,
+				B995ED391B7169FA00513AA8 /* OACall.m in Sources */,
+				B995ED0A1B71698400513AA8 /* search.swift in Sources */,
 				B9CA4F3D1B63154D00D31E8F /* ViewController.swift in Sources */,
+				B995ED411B7169FA00513AA8 /* OAServiceTicket.m in Sources */,
+				B995ED3D1B7169FA00513AA8 /* OAMutableURLRequest.m in Sources */,
+				B995ED3B1B7169FA00513AA8 /* OADataFetcher.m in Sources */,
+				B995ED361B7169FA00513AA8 /* Base64Transcoder.c in Sources */,
+				B995ED371B7169FA00513AA8 /* hmac.c in Sources */,
+				B995ED331B7169FA00513AA8 /* NSMutableURLRequest+Parameters.m in Sources */,
 				B9CA4F3B1B63154D00D31E8F /* AppDelegate.swift in Sources */,
+				B995ED3E1B7169FA00513AA8 /* OAPlaintextSignatureProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +482,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BarRoulette/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BarRoulette/BarRoulette-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +495,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BarRoulette/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BarRoulette/BarRoulette-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +556,7 @@
 				B9CA4F561B63154D00D31E8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9CA4F571B63154D00D31E8F /* Build configuration list for PBXNativeTarget "BarRouletteTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +565,7 @@
 				B9CA4F591B63154D00D31E8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
