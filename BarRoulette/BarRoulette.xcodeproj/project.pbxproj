@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B97E26891B7CCCE400F9BA67 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97E26881B7CCCE400F9BA67 /* DetailedViewController.swift */; };
+		B97E268B1B7CEDAA00F9BA67 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97E268A1B7CEDAA00F9BA67 /* Bar.swift */; };
 		B995ED0A1B71698400513AA8 /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CA4F5D1B70666200D31E8F /* search.swift */; };
 		B995ED0B1B71698800513AA8 /* NSURLRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CA4F611B71634000D31E8F /* NSURLRequest+OAuth.m */; };
 		B995ED331B7169FA00513AA8 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B995ED0F1B7169FA00513AA8 /* NSMutableURLRequest+Parameters.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -45,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B97E26881B7CCCE400F9BA67 /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		B97E268A1B7CEDAA00F9BA67 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
 		B995ED0E1B7169FA00513AA8 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
 		B995ED0F1B7169FA00513AA8 /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
 		B995ED101B7169FA00513AA8 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
@@ -196,7 +200,9 @@
 			isa = PBXGroup;
 			children = (
 				B9CA4F3A1B63154D00D31E8F /* AppDelegate.swift */,
+				B97E26881B7CCCE400F9BA67 /* DetailedViewController.swift */,
 				B9CA4F3C1B63154D00D31E8F /* ViewController.swift */,
+				B97E268A1B7CEDAA00F9BA67 /* Bar.swift */,
 				B9CA4F3E1B63154D00D31E8F /* Main.storyboard */,
 				B9CA4F601B71634000D31E8F /* NSURLRequest+OAuth.h */,
 				B9CA4F611B71634000D31E8F /* NSURLRequest+OAuth.m */,
@@ -279,6 +285,7 @@
 		B9CA4F2D1B63154D00D31E8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Emma Koszinowski";
 				TargetAttributes = {
@@ -336,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B995ED381B7169FA00513AA8 /* sha1.c in Sources */,
+				B97E268B1B7CEDAA00F9BA67 /* Bar.swift in Sources */,
 				B995ED421B7169FA00513AA8 /* OAToken.m in Sources */,
 				B995ED3C1B7169FA00513AA8 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
 				B995ED351B7169FA00513AA8 /* NSURL+Base.m in Sources */,
@@ -349,6 +357,7 @@
 				B995ED0A1B71698400513AA8 /* search.swift in Sources */,
 				B9CA4F3D1B63154D00D31E8F /* ViewController.swift in Sources */,
 				B995ED411B7169FA00513AA8 /* OAServiceTicket.m in Sources */,
+				B97E26891B7CCCE400F9BA67 /* DetailedViewController.swift in Sources */,
 				B995ED3D1B7169FA00513AA8 /* OAMutableURLRequest.m in Sources */,
 				B995ED3B1B7169FA00513AA8 /* OADataFetcher.m in Sources */,
 				B995ED361B7169FA00513AA8 /* Base64Transcoder.c in Sources */,

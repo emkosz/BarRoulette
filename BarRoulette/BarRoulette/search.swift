@@ -16,8 +16,9 @@ class APISample2: NSObject {
         let session = NSURLSession.sharedSession()
         let params = [
             "term": "bar",
-            "location": "New York, NY",
-            "category_filter": "divebars",
+            //"location": "New York, NY",
+            "ll": "40.7159819101673,-73.9893277618757",
+            "category_filter": "divebars"
         ]
         session.dataTaskWithRequest(NSURLRequest(host: APIHost, path: searchPath, params: params)) { (data, response, error) -> Void in
             if let data = data {

@@ -24,6 +24,7 @@ class BarRouletteTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         XCTAssert(true, "Pass")
+        XCTAssertEqual(1, 1)
     }
     
     func testPerformanceExample() {
