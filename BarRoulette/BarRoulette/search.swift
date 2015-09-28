@@ -7,17 +7,20 @@
 //
 
 import Foundation
+import CoreLocation
+
 
 let APIHost = "api.yelp.com"
 let searchPath = "/v2/search/"
 
 struct APISample2 {
-    static func search(callback: ([String: AnyObject]?, NSError?) -> Void) {
+    static func search(location: CLLocation, callback: ([String: AnyObject]?, NSError?) -> Void) {
         let session = NSURLSession.sharedSession()
+        let latitude: Double = location.coordinate.latitude // 40.7159819101673
+        let longitude: Double = location.coordinate.longitude //-73.9893277618757
         let params = [
             "term": "bar",
-            //"location": "New York, NY",
-            "ll": "40.7159819101673,-73.9893277618757", // longitude, latitude
+            "ll": "\(latitude),\(longitude)",
 //            "category_filter": "bar"
         ]
         session.dataTaskWithRequest(NSURLRequest(host: APIHost, path: searchPath, params: params)) { (data, response, error) -> Void in
@@ -31,15 +34,5 @@ struct APISample2 {
         }.resume()
     }
     
-    static func search2(callback: ([String: AnyObject]?, NSError?) -> Void) {
-        search { JSON, error in
-            if let JSON = JSON, firstBusiness = (JSON["businesses"] as? [AnyObject])?.first as? [String: AnyObject] {
-                if let first = firstBusiness["snippet_text"] {
-                    print(first)
-                }
-            }
-            callback(JSON, error)
-        }
-    }
 }
 

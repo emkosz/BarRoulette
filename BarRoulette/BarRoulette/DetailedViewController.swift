@@ -11,29 +11,34 @@ import CoreLocation
 
 class DetailedViewController: UIViewController, CLLocationManagerDelegate {
     
-    
+    // variable bar of the type struct Bar
     var bar: Bar?
     @IBOutlet weak var snippetTextLabel: UILabel!
     
+    // constant assigned to the CLLocationManager class
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        locationManager.requestAlwaysAuthorization()
+        // ask for the delegate
         locationManager.delegate = self
+        // recuest permission to use location when the app is running
+        locationManager.requestAlwaysAuthorization()
         
-        print(CLLocationManager.locationServicesEnabled())
+        // ask for the current location
+//        print(CLLocationManager.locationServicesEnabled())
         locationManager.startMonitoringSignificantLocationChanges()
-        print(locationManager.location)
+//        print(locationManager.location)
 //        locationManager.requestLocation()
         
         // check the location again
 //        if let location = locationManager.location { … }
     }
     
-    func searchFromLocation(location: CLLocation) {
-        APISample2.search({ (JSON, error) -> Void in
+    func searchFromLocation(currentLocation: CLLocation) {
+        
+        APISample2.search(currentLocation) { (JSON: [String:AnyObject]?, error: NSError?) -> Void in
             if let JSON = JSON, businesses = JSON["businesses"] as? [AnyObject], business = businesses[random() % businesses.count] as? [String: AnyObject] where businesses.count > 0 {
                 //                println(business)
                 let location = business["location"] as? [String: AnyObject]
@@ -54,7 +59,7 @@ class DetailedViewController: UIViewController, CLLocationManagerDelegate {
                 print("we didn't get any businesses in \(JSON)")
             }
             //            println(JSON)
-        })
+        }
 
         // Do any additional setup after loading the view.
     }
@@ -73,6 +78,7 @@ class DetailedViewController: UIViewController, CLLocationManagerDelegate {
         print("got status \(status.rawValue)")
     }
     
+    // gives us the location
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if locations.count > 0 {
             searchFromLocation(locations[0])
