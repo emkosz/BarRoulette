@@ -98,6 +98,13 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lae-Fc-dXc">
+                                <rect key="frame" x="131" y="391" width="58" height="30"/>
+                                <state key="normal" title="UberYes"/>
+                                <connections>
+                                    <segue destination="Jco-b8-bQB" kind="push" id="24n-YR-6ni"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97254908084869385" green="0.51372551918029785" blue="0.41176474094390869" alpha="1" colorSpace="deviceRGB"/>
                         <gestureRecognizers/>
@@ -111,10 +118,10 @@
             </objects>
             <point key="canvasLocation" x="603" y="397"/>
         </scene>
-        <!--View Controller-->
+        <!--Uber View Controller-->
         <scene sceneID="JV7-Qq-E9n">
             <objects>
-                <viewController id="Jco-b8-bQB" sceneMemberID="viewController">
+                <viewController id="Jco-b8-bQB" customClass="UberViewController" customModule="BarRoulette" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MqP-m7-dww"/>
                         <viewControllerLayoutGuide type="bottom" id="NFC-Mo-cGP"/>
@@ -124,6 +131,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="6mn-w1-DKA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uba-aP-s5t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

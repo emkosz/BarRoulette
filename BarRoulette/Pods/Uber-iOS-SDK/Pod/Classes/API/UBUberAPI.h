@@ -10,10 +10,12 @@
 
 @class UBProduct;
 
+NS_ASSUME_NONNULL_BEGIN
+
 extern NSString * const kUberProductionHostname;
 extern NSString * const kUberSandboxHostname;
 
-typedef void(^UBArrayResponseBlock)(NSArray *, NSError *);
+typedef void(^UBArrayResponseBlock)(NSArray<UBProduct *> * _Nullable, NSError * _Nullable);
 typedef void(^UBProductResponseBlock)(UBProduct *, NSError *);
 
 @interface UBUberAPI : NSObject
@@ -33,6 +35,8 @@ typedef void(^UBProductResponseBlock)(UBProduct *, NSError *);
  *  Set this to authenticate with the Uber API
  */
 @property (copy, nonatomic) NSString *serverToken;
+
+@property (strong, nonatomic, readonly) NSOperationQueue *operationQueue;
 
 /**
  *  Gets a list of Uber products.
@@ -54,3 +58,5 @@ typedef void(^UBProductResponseBlock)(UBProduct *, NSError *);
 - (void)getProductWithId:(NSString *)productId response:(UBProductResponseBlock)responseBlock;
 
 @end
+
+NS_ASSUME_NONNULL_END

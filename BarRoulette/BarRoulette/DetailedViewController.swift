@@ -15,6 +15,8 @@ class DetailedViewController: UIViewController, CLLocationManagerDelegate {
     var bar: Bar?
     @IBOutlet weak var snippetTextLabel: UILabel!
     
+    var location :CLLocation?
+    
     // constant assigned to the CLLocationManager class
     let locationManager = CLLocationManager()
     
@@ -49,6 +51,8 @@ class DetailedViewController: UIViewController, CLLocationManagerDelegate {
                 }
                 if let bar = Bar.create(snippet: business["snippet_text"] as? String, imageURL: imageURL, coordinate: coord) {
                     dispatch_async(dispatch_get_main_queue()) {
+                        self.bar = bar
+                        self.location = currentLocation
                         self.snippetTextLabel.text = bar.snippet
                     }
                 }
@@ -82,6 +86,13 @@ class DetailedViewController: UIViewController, CLLocationManagerDelegate {
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if locations.count > 0 {
             searchFromLocation(locations[0])
+        }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let viewController = segue.destinationViewController as? UberViewController {
+            viewController.bar = self.bar
+            viewController.location = self.location
         }
     }
 }
