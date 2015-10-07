@@ -1,0 +1,1 @@
+../../../../Uber-iOS-SDK/Pod/Classes/Models/UBProduct.h

@@ -1,0 +1,11 @@
+# Uncomment this line to define a global platform for your projectplatform :ios, '6.0'
+
+target 'BarRoulette' do
+
+  pod "Uber-iOS-SDK"
+
+end
+
+target 'BarRouletteTests' do
+
+end
