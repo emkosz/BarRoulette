@@ -4,35 +4,77 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Keys.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>Pods-BarRoulette.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-BarRouletteTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>Uber-iOS-SDK.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>p2.OAuth2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>316BA2BAB21DAF267C5FB9FE41D1DDBD</key>
+		<key>4A19CAEE62BFF12C048C089CEFF9C710</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>800EF43299A663FDCA5CBCA3B6BFDE13</key>
+		<key>8D84C45177FA5F0408F68A0AD7A747ED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9E3FADDDBC21ABCEFC82866ABD58D8AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9889FA9106A68E5BB39832472CE618D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CBFD82023CF819E37D8B623DC59F414E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F32D052B04179AB9F26154B2F92C1532</key>
 		<dict>
 			<key>primary</key>
 			<true/>

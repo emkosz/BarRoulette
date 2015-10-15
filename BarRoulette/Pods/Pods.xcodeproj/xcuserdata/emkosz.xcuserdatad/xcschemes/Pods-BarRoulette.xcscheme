@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C8B40D7122BB77FEDFCCD0B5'
+               BlueprintIdentifier = 'B2CD7F313950D78A1A6F8E0B'
                BlueprintName = 'Pods-BarRoulette'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_BarRoulette.framework'>

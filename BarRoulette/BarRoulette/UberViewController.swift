@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreLocation
+import Keys
 
 class UberViewController: UIViewController {
     var bar :Bar?
@@ -19,15 +20,15 @@ class UberViewController: UIViewController {
         // make a request to uber from our location and to the bar's location
         let API = UBUberAPI.shared()
         API.hostname = kUberSandboxHostname
-        API.serverToken = "Insert server token"
+        API.serverToken = BarrouletteKeys().uberServerToken()
         
         if let location = location, bar = bar {
             API.getProductsFromLatitude(Float(location.coordinate.latitude), longitude: Float(location.coordinate.longitude), response: { (products, error) -> Void in
-                print(products)
+                print("hej", products)
                 if let products = products {                    
                     UBUberAPI.shared().requestRide(location, bar: bar, product: products.first!, callback: { (response, error) -> Void in
-                        print(response)
-                        print(error)
+                        print("hallo", response)
+                        print("fel", error)
                     })
                 }
             })

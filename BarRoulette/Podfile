@@ -2,6 +2,18 @@
 
 use_frameworks!
 
+plugin 'cocoapods-keys', {
+  :project => "BarRoulette",
+  :keys => [
+  	"UberClientId",
+  	"UberClientSecret",
+  	"UberServerToken",
+  	"YelpkConsumerKey",
+  	"YelpkConsumerSecret",
+  	"YelpkToken",
+  	"YelpkTokenSecret"
+  ]}
+
 target 'BarRoulette' do
 
 

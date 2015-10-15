@@ -84,12 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-BarRoulette/Keys.framework"
-  install_framework "Pods-BarRoulette/UberSDK.framework"
-  install_framework "Pods-BarRoulette/p2_OAuth2.framework"
+  install_framework "Pods/Keys.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-BarRoulette/Keys.framework"
-  install_framework "Pods-BarRoulette/UberSDK.framework"
-  install_framework "Pods-BarRoulette/p2_OAuth2.framework"
+  install_framework "Pods/Keys.framework"
 fi

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1262266418F30ED1502C34FC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E60941EB433D01944B5F2D5 /* Pods.framework */; };
 		B9388CB11BC584EA0063F127 /* request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9388CB01BC584EA0063F127 /* request.swift */; settings = {ASSET_TAGS = (); }; };
 		B9388CB31BC5A1C90063F127 /* UberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9388CB21BC5A1C90063F127 /* UberViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		B97E26891B7CCCE400F9BA67 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97E26881B7CCCE400F9BA67 /* DetailedViewController.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E60941EB433D01944B5F2D5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CAFE4FF82FE2409A60E868 /* Pods_BarRoulette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarRoulette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D92EBB9456D4C489F1099C7 /* Pods-BarRoulette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarRoulette.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarRoulette/Pods-BarRoulette.release.xcconfig"; sourceTree = "<group>"; };
 		8E34E0E338D5A9FAD50F0044 /* Pods-BarRoulette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarRoulette.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarRoulette/Pods-BarRoulette.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			files = (
 				B9A0DE7E1BB07A9B00426550 /* CoreLocation.framework in Frameworks */,
 				EC146C8EA13DACA025147148 /* Pods_BarRoulette.framework in Frameworks */,
+				1262266418F30ED1502C34FC /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				71CAFE4FF82FE2409A60E868 /* Pods_BarRoulette.framework */,
+				3E60941EB433D01944B5F2D5 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -408,7 +412,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarRoulette/Pods-BarRoulette-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F0FB7BF3920383C4DDCB28BE /* Check Pods Manifest.lock */ = {

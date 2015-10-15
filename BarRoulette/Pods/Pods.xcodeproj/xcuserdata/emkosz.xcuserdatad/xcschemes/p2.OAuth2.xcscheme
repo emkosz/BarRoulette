@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D215A257FFF4791955A26A61'
+               BlueprintIdentifier = 'DAD3E50CCA7CFF6F55C45CBC'
                BlueprintName = 'p2.OAuth2'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'p2_OAuth2.framework'>

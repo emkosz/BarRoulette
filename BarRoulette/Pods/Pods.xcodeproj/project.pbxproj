@@ -7,131 +7,194 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		038451A10C5B69596298553ED5C232FC /* UBTimeEstimate.m in Sources */ = {isa = PBXBuildFile; fileRef = F253424F23D4422CCD7A2EA153C703C8 /* UBTimeEstimate.m */; };
-		064C81182EEA85CC291AA994F7DE0416 /* Pods-BarRoulette-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA62246215CE0A9EF1BAB6CA9B50D79 /* Pods-BarRoulette-dummy.m */; };
+		05EF6FA29BFA5DAF6C5C0A57BF8B4CCC /* BarrouletteKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6A30EA548430A095D6E15024EA9F7D /* BarrouletteKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A18E3BFF39B4A4D04C313B6DA034F67 /* Pods-BarRoulette-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40777BE44B3F0FCD52C3178EDE57181E /* Pods-BarRoulette-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E9BD915CD0B171244F19AF35320D1F1 /* OAuth2CodeGrantFacebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520C5F5BD323D6DFA89FFD688D4F875B /* OAuth2CodeGrantFacebook.swift */; };
+		0EFF112EA759340619359157DCEBFCFA /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BAE773B097EAF5688F9C9951A9A326A /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D16555F6B22C6A2DB9D5C0919A3D889 /* Keys-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7404BD5FFEF33791C4DE3488F8F8780C /* Keys-dummy.m */; };
 		20BA88E9362F3A917F2E0D3335A678FA /* KeychainQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967EAD69409609F3A0316B6DF417E62A /* KeychainQuery.swift */; };
-		231AC06D3BB690A9A7B74B859AFE9FD3 /* UBUserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8630102121EBA02BB0BA97F24AAA5B84 /* UBUserProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2487B2AD57D0B7E68EDF253AB8BC6DE7 /* OAuth2PasswordGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D537982C523EF50DDFD88B2CD23E4D /* OAuth2PasswordGrant.swift */; };
-		2B671BF41060843798ACB8F912B4F9DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		2C3687E02C0206B6B840B6B203BB8B00 /* OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F426994126EBBFA7759E5D1B9F2F7 /* OAuth2.swift */; };
-		339F118AB35B6005960FCB694BC1779E /* UBTimeEstimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD462680F2E1E546599F60241D6D24A /* UBTimeEstimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F9A79126233516E7EDBC0F5CD853C94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		37DAF2E09D77417BE74A94163EE5D207 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C46572C9480910D3BF7F328731EC85 /* Keychain.swift */; };
 		46E95F9360FFAFA89C11B4DB4AFAFA44 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0F0A38F394617726E9733D481E911 /* KeychainService.swift */; };
-		4AE7A8778CEE2E0457825E535CDC48BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		5417757B7F7972B676AB15E2031DADB0 /* UBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CB13106723FA87D5C4480AD7A6D79D58 /* UBRequest.m */; };
-		5C8A7D984FE5804A8B6588EDCCFB0650 /* UBModelParsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 984C1C88D5CC628EBE9AF788F1183389 /* UBModelParsing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		493883578DFDF1B74B5F2A7FDAE6AD9C /* UBProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B3366C515FEEFFA75650F7CEA1C60 /* UBProduct.m */; };
+		587454D7261BA4893979DDE674D4E2C1 /* UBUberAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDA1394CD2B46FEC4B384793BEFEA4 /* UBUberAPI.m */; };
+		5F17DD772D43D72120AE5FBE908CEFD7 /* UBModelParsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 984C1C88D5CC628EBE9AF788F1183389 /* UBModelParsing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D6275973960B15327E75A4F2A9E185 /* UBPriceEstimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B03E9C80FD90D7F6C88491F79CC67E /* UBPriceEstimate.m */; };
 		66F4BAC5369EC04B263705ABC1CF41FC /* p2.OAuth2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC1B177635CD525330839BE5AB599DA /* p2.OAuth2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A054A9B23B96FDD9791FD5BBF2F069B /* UBUberAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 99110F2A73C7BBD6BED352AB21D135C4 /* UBUberAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B6940937FB7FB933FF5E54B490563E3 /* UBPriceEstimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2C3DB27DBA5D55639D286BAFD38A9E /* UBPriceEstimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6871061983A71F7E47C6C87B1877DC09 /* UBPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DA4ECA2FBDB2AD537F78D51755B4BA /* UBPromotion.m */; };
 		6C3EB8059AED6F7D3CD11BFB19D7F12A /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007ACC91FF31DFCBFB48E3D4085A000 /* extensions.swift */; };
 		71CC4CF8D14B0D887FE4C0B956830889 /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756ED020E678B657D192079160A9571C /* KeychainItem.swift */; };
+		721A131D811DDB4875E584F92127A1F6 /* UBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CB13106723FA87D5C4480AD7A6D79D58 /* UBRequest.m */; };
+		79890A93AB3A383DC2CF399F3388D508 /* UBUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B6D8E20566B6A26999DA1531ED7FCE /* UBUserProfile.m */; };
 		7BBC872EC9A81EF819B6BE08C6E2A9E6 /* OAuth2CodeGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC336A6730222A20E981D795D419AC1C /* OAuth2CodeGrant.swift */; };
-		7DE12AAF552FC42FD0464124853BEC52 /* UBUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B6D8E20566B6A26999DA1531ED7FCE /* UBUserProfile.m */; };
+		7EF6F8B52BA318CCE02F59D45F967572 /* Pods-BarRouletteTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1533B8A239D30747CEC229326525FE5B /* Pods-BarRouletteTests-dummy.m */; };
+		7FE0801EB5ED8CDDB0689E54C75BBC33 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD7CCB2D5569B764B8570F659CA60F1 /* Pods-dummy.m */; };
+		81B3DF8DB05066746365B697FE1514C8 /* UBPromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 98AA679C60FE390B85BE5F4C48FE6021 /* UBPromotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8331499F8700411BF12271D597289A4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		8AFD22F4FD94465485F8C77FB2C8960A /* p2.OAuth2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A425347065B3C68B25E40D32A89183B /* p2.OAuth2-dummy.m */; };
-		949E4ED997E1A0409E154F0982885302 /* UBUberAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDA1394CD2B46FEC4B384793BEFEA4 /* UBUberAPI.m */; };
 		953515B4E44CA95AB321D56BC5CE32C9 /* OAuth2DynReg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E016EBCB3354C7404DB0158988DF6EEB /* OAuth2DynReg.swift */; };
-		998AD1C7B52E3772585ED51F663B4DA4 /* Pods-BarRoulette-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 240BFD4294E3532D1D13B7CB7141900F /* Pods-BarRoulette-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AA50D65C65D494C80E81869EF7ECB55 /* UBProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = BD69AC7FA2BD6D5764FB3A5BD829BEFD /* UBProduct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0C2CE2415EC1446C4C599BD65400688 /* Pods-BarRoulette-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 254FFA3972964814BE28D8604EA5CA44 /* Pods-BarRoulette-dummy.m */; };
 		A183BDD12AAC67756088162EEA3157F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		A4089DFEFC52709F9A89055CA1658170 /* OAuth2CodeGrantBasicAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37074734E324E65361FA73FB47507BB5 /* OAuth2CodeGrantBasicAuth.swift */; };
-		A7F1CF0EC856CD3D042F422BF9967323 /* UBPromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 98AA679C60FE390B85BE5F4C48FE6021 /* UBPromotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8301194FCB382087491F172A2561813 /* OAuth2WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8544EE9227D26E6BA2596BF5A280D78F /* OAuth2WebViewController.swift */; };
-		AD704350A06825A09F48FD4D43A2FE92 /* Uber-iOS-SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3B995407295AD8B9431B3FAD064398 /* Uber-iOS-SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B79448BF5AB9439B096CE18F605A9D5A /* UBPriceEstimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B03E9C80FD90D7F6C88491F79CC67E /* UBPriceEstimate.m */; };
-		BA9692FBDF0B0821416F556FC0220FC0 /* UBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F0267008E057CD3C71114BE976DDB52F /* UBRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A87369988B50AC4331F5080E5BB68B3A /* Uber-iOS-SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3B995407295AD8B9431B3FAD064398 /* Uber-iOS-SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFBF832085A2E271C3630FE323B3E33A /* UberSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B25D044BE3F765CEB4232B825D65D9 /* UberSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C26B924A4A5964F0CB47739C04E8137F /* BarrouletteKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 1148A5B1042A82ADB6B5B85D1092F982 /* BarrouletteKeys.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C2E7D97CD414E7BAE520BBB9A9049B94 /* Keys-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D1B66FEC5DBF9F8EE6C735EB19AA19 /* Keys-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2EDBC75C6E8179883A4E7126AF052CB /* OAuth2ClientCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802787E67690FB814F48D4A45D0008D1 /* OAuth2ClientCredentials.swift */; };
+		C374FFB36CA8A6DA045CEC7802127588 /* UBPriceEstimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2C3DB27DBA5D55639D286BAFD38A9E /* UBPriceEstimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3B2B226B184E0DCF3C0AC32BEE30B12 /* OAuth2ImplicitGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D607203650C1F02A83C05AAEEC5DB67B /* OAuth2ImplicitGrant.swift */; };
+		C7D5858D372E2E9CBE325947A752CC66 /* UBUberAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 99110F2A73C7BBD6BED352AB21D135C4 /* UBUberAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8011A10EA7D21A6DAD26E5B98F6C6FF /* ArchiveKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26631A87E18A3D53DD25DBF02C8962 /* ArchiveKey.swift */; };
-		D039F1CD67205971750FEC1265EF45BF /* UBProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B3366C515FEEFFA75650F7CEA1C60 /* UBProduct.m */; };
+		C8B7480484406E6EF8286D534FA638A5 /* UBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F0267008E057CD3C71114BE976DDB52F /* UBRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD9715FF4C31FC70316AC57AAA024F10 /* Pods-BarRouletteTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93EF81DFC3C69B85A58290E73AE29265 /* Pods-BarRouletteTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1075B3BF9A4E1FC16A17641E7E523A7 /* OAuth2Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72DB4669B26D6C9A92164CCF1AD2A40 /* OAuth2Base.swift */; };
-		E79420E04DCCCC0095B2B3ED86A08FF7 /* UBProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = BD69AC7FA2BD6D5764FB3A5BD829BEFD /* UBProduct.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F002B4F6A3B2559B97E4BF7BBBDEF7AD /* UBPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DA4ECA2FBDB2AD537F78D51755B4BA /* UBPromotion.m */; };
+		D728380D67AB2E12D4C3BC9D6CFB548E /* UBTimeEstimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD462680F2E1E546599F60241D6D24A /* UBTimeEstimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE876FD85F1DD9E4849EDCD8D008CB87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E819D274A1E53E5207F07157294A3DC2 /* Uber-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A53F50B7BA78D23ABA1EDE55636B474F /* Uber-iOS-SDK-dummy.m */; };
+		E928BFC09D477B7376C783774FA3AA0F /* UBUserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8630102121EBA02BB0BA97F24AAA5B84 /* UBUserProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF12C31F1F2BFFD065583EF16498264 /* UBTimeEstimate.m in Sources */ = {isa = PBXBuildFile; fileRef = F253424F23D4422CCD7A2EA153C703C8 /* UBTimeEstimate.m */; };
+		EEF1142D9A5F21E1E5E9B9DE155E7B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F0C3E76B7B9E0E6C4E73A0B9FABB920C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		F1E99F58600CA69D605D93F763BAD44A /* OAuth2Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D49757B6EEF9A58A2DB859E3BD3B2E /* OAuth2Request.swift */; };
 		F20D4C4DA23D891C2BA78D4797809A38 /* OAuth2+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29617F8DF806B21B922497E75196D137 /* OAuth2+iOS.swift */; };
 		F6DBFD7357212986DDF342E586CB15F7 /* GenericKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3E99CA3830D9D776E75F6CF270BA8 /* GenericKey.swift */; };
-		F7F93AED0D6B7C72C4B4EC16CDE679C6 /* UberSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B25D044BE3F765CEB4232B825D65D9 /* UberSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCA55532547A26B9F667FDF77A72E52E /* Uber-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A53F50B7BA78D23ABA1EDE55636B474F /* Uber-iOS-SDK-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7BC9D982B25480ED110B7986ED57D105 /* PBXContainerItemProxy */ = {
+		10C7AFFA58EB571052F4F6E8DF42A6CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 316BA2BAB21DAF267C5FB9FE41D1DDBD;
+			remoteGlobalIDString = C9889FA9106A68E5BB39832472CE618D;
 			remoteInfo = "Uber-iOS-SDK";
 		};
-		7E654F19765DD2D4E199CCB799B04AB7 /* PBXContainerItemProxy */ = {
+		1F92BFBE076DD13FAFE0F460606A1896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32D052B04179AB9F26154B2F92C1532;
+			remoteInfo = Keys;
+		};
+		8B60892E890A198F1AC13548D8A0F10C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9E3FADDDBC21ABCEFC82866ABD58D8AD;
 			remoteInfo = p2.OAuth2;
 		};
+		C86326C684A6CEFE7731CD91DD3AD820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32D052B04179AB9F26154B2F92C1532;
+			remoteInfo = Keys;
+		};
+		E13B80D613ABEBEBA7165015A9EF6317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32D052B04179AB9F26154B2F92C1532;
+			remoteInfo = Keys;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04C46572C9480910D3BF7F328731EC85 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = SwiftKeychain/SwiftKeychain/Keychain/Keychain.swift; sourceTree = "<group>"; };
-		0BA9342B77466CB96DC5895D3093FE90 /* Pods-BarRoulette-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BarRoulette-resources.sh"; sourceTree = "<group>"; };
-		0EAEC68ACD19C6FC36BB5F449D3F9648 /* p2_OAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = p2_OAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		077735297B4DA2B405713E71EBA32A46 /* Pods-BarRoulette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarRoulette.debug.xcconfig"; sourceTree = "<group>"; };
+		0CCACCE0F1E6A10A8ED6130C7B9B2E65 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D7A7979103408E255E07B32A94E9B33 /* Pods-BarRoulette-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarRoulette-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F6A30EA548430A095D6E15024EA9F7D /* BarrouletteKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BarrouletteKeys.h; sourceTree = "<group>"; };
 		0F6F426994126EBBFA7759E5D1B9F2F7 /* OAuth2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2.swift; path = OAuth2/OAuth2.swift; sourceTree = "<group>"; };
+		1148A5B1042A82ADB6B5B85D1092F982 /* BarrouletteKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BarrouletteKeys.m; sourceTree = "<group>"; };
+		1533B8A239D30747CEC229326525FE5B /* Pods-BarRouletteTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BarRouletteTests-dummy.m"; sourceTree = "<group>"; };
+		190BA6F5BA1BFD041D4002B0D363A6B5 /* Pods-BarRoulette-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BarRoulette-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19C375EFFA5B48741A5219B61185B687 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		1A425347065B3C68B25E40D32A89183B /* p2.OAuth2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "p2.OAuth2-dummy.m"; sourceTree = "<group>"; };
 		1BD6227EA8EBF77A6058D7803F79D01F /* Uber-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Uber-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
-		240BFD4294E3532D1D13B7CB7141900F /* Pods-BarRoulette-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BarRoulette-umbrella.h"; sourceTree = "<group>"; };
+		208BAC502DDDA3D07FAB6CF856573C56 /* Pods-BarRouletteTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BarRouletteTests-frameworks.sh"; sourceTree = "<group>"; };
 		24B25D044BE3F765CEB4232B825D65D9 /* UberSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UberSDK.h; path = Pod/Classes/UberSDK.h; sourceTree = "<group>"; };
+		254FFA3972964814BE28D8604EA5CA44 /* Pods-BarRoulette-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BarRoulette-dummy.m"; sourceTree = "<group>"; };
 		29617F8DF806B21B922497E75196D137 /* OAuth2+iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OAuth2+iOS.swift"; path = "OAuth2+iOS/OAuth2+iOS.swift"; sourceTree = "<group>"; };
-		2BDA960B7448057B260BDDD89EF42EDB /* Pods-BarRoulette-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BarRoulette-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2AF83879775E91EB9C903A7FAC176FED /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC6656B943BEF5762D6559179BFEEA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37074734E324E65361FA73FB47507BB5 /* OAuth2CodeGrantBasicAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantBasicAuth.swift; path = OAuth2/OAuth2CodeGrantBasicAuth.swift; sourceTree = "<group>"; };
+		37385720CCD19D10CD1944ED4E00BFCD /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		39544049E5BBA148D6C5E37F851F2FCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA92ABDADB35CD2D6E4C46DB44E440A /* p2.OAuth2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2.OAuth2-prefix.pch"; sourceTree = "<group>"; };
+		3BAE773B097EAF5688F9C9951A9A326A /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
 		3CEDA1394CD2B46FEC4B384793BEFEA4 /* UBUberAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBUberAPI.m; path = Pod/Classes/API/UBUberAPI.m; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40777BE44B3F0FCD52C3178EDE57181E /* Pods-BarRoulette-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BarRoulette-umbrella.h"; sourceTree = "<group>"; };
 		474B01220A5ED00017D0AD6BDC63E333 /* p2.OAuth2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = p2.OAuth2.xcconfig; sourceTree = "<group>"; };
 		47DA4ECA2FBDB2AD537F78D51755B4BA /* UBPromotion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBPromotion.m; path = Pod/Classes/Models/UBPromotion.m; sourceTree = "<group>"; };
-		4E5FB031DA91C085A1F5764ED4B2D1A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D71502D40822B30F8FEFCE8FF1DE301 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
 		4F2C3DB27DBA5D55639D286BAFD38A9E /* UBPriceEstimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBPriceEstimate.h; path = Pod/Classes/Models/UBPriceEstimate.h; sourceTree = "<group>"; };
 		520C5F5BD323D6DFA89FFD688D4F875B /* OAuth2CodeGrantFacebook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantFacebook.swift; path = OAuth2/OAuth2CodeGrantFacebook.swift; sourceTree = "<group>"; };
+		5870CA34720E6D960D711B90627F6F4F /* Keys.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Keys.xcconfig; sourceTree = "<group>"; };
 		5AC3E99CA3830D9D776E75F6CF270BA8 /* GenericKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericKey.swift; path = SwiftKeychain/SwiftKeychain/Keychain/GenericKey.swift; sourceTree = "<group>"; };
-		5D40D785E45E7BB5F5824960BCB102C3 /* Pods-BarRoulette-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarRoulette-acknowledgements.plist"; sourceTree = "<group>"; };
+		61D0D0ACED03638AC7691BC592AEE3F7 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		6A7EFBEE8C396D632C184062167D5FC7 /* Pods-BarRoulette-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BarRoulette-frameworks.sh"; sourceTree = "<group>"; };
+		6CD2B10DDC137258A1CEEF998F302292 /* Keys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B03E9C80FD90D7F6C88491F79CC67E /* UBPriceEstimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBPriceEstimate.m; path = Pod/Classes/Models/UBPriceEstimate.m; sourceTree = "<group>"; };
+		7285E11850BD099B9084F362C7EA8727 /* Pods-BarRouletteTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BarRouletteTests.modulemap"; sourceTree = "<group>"; };
+		7404BD5FFEF33791C4DE3488F8F8780C /* Keys-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Keys-dummy.m"; sourceTree = "<group>"; };
 		756ED020E678B657D192079160A9571C /* KeychainItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainItem.swift; path = SwiftKeychain/SwiftKeychain/Keychain/KeychainItem.swift; sourceTree = "<group>"; };
 		7B3882E6018F3518D80F34DDE47BAA33 /* Uber-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Uber-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
 		802787E67690FB814F48D4A45D0008D1 /* OAuth2ClientCredentials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2ClientCredentials.swift; path = OAuth2/OAuth2ClientCredentials.swift; sourceTree = "<group>"; };
+		826CBFACB9FADA22AF4BDC9E68F263CE /* Pods-BarRoulette-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BarRoulette-resources.sh"; sourceTree = "<group>"; };
 		83D49757B6EEF9A58A2DB859E3BD3B2E /* OAuth2Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Request.swift; path = OAuth2/OAuth2Request.swift; sourceTree = "<group>"; };
-		842823628CD54D80017F392954DF61D3 /* Pods-BarRoulette.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BarRoulette.modulemap"; sourceTree = "<group>"; };
 		8544EE9227D26E6BA2596BF5A280D78F /* OAuth2WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2WebViewController.swift; path = "OAuth2+iOS/OAuth2WebViewController.swift"; sourceTree = "<group>"; };
 		8630102121EBA02BB0BA97F24AAA5B84 /* UBUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBUserProfile.h; path = Pod/Classes/Models/UBUserProfile.h; sourceTree = "<group>"; };
+		87BAF107A3E4CC3174537CE54FBFA6E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AD462680F2E1E546599F60241D6D24A /* UBTimeEstimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBTimeEstimate.h; path = Pod/Classes/Models/UBTimeEstimate.h; sourceTree = "<group>"; };
+		91CE11DD75D64591E3CB4E2417E8DD4E /* Pods_BarRoulette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarRoulette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D71EEBD34D61F9A7EC9FCA84BEF0EC /* UberSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UberSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93EF81DFC3C69B85A58290E73AE29265 /* Pods-BarRouletteTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BarRouletteTests-umbrella.h"; sourceTree = "<group>"; };
 		946590062AA2DC6059CDDDA10C77DC42 /* Uber-iOS-SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Uber-iOS-SDK.modulemap"; sourceTree = "<group>"; };
-		9633F95C6AB416678264474BFE1F5803 /* Pods-BarRoulette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarRoulette.debug.xcconfig"; sourceTree = "<group>"; };
+		95944F2EB7C2BA3D41A005B0698E4CAE /* Pods-BarRouletteTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarRouletteTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		967EAD69409609F3A0316B6DF417E62A /* KeychainQuery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainQuery.swift; path = SwiftKeychain/SwiftKeychain/Keychain/KeychainQuery.swift; sourceTree = "<group>"; };
 		984C1C88D5CC628EBE9AF788F1183389 /* UBModelParsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBModelParsing.h; path = Pod/Classes/Models/UBModelParsing.h; sourceTree = "<group>"; };
 		98AA679C60FE390B85BE5F4C48FE6021 /* UBPromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBPromotion.h; path = Pod/Classes/Models/UBPromotion.h; sourceTree = "<group>"; };
 		99110F2A73C7BBD6BED352AB21D135C4 /* UBUberAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBUberAPI.h; path = Pod/Classes/API/UBUberAPI.h; sourceTree = "<group>"; };
 		9A8B3366C515FEEFFA75650F7CEA1C60 /* UBProduct.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBProduct.m; path = Pod/Classes/Models/UBProduct.m; sourceTree = "<group>"; };
+		9C01175876EA99081E3D0ABD0B11D39F /* Pods-BarRouletteTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BarRouletteTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A107976939426AFABE5CFB3B60A518DB /* Pods_BarRouletteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarRouletteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50DC8D8C4CFBBDEC24E1A9551571D12 /* Pods-BarRoulette.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BarRoulette.modulemap"; sourceTree = "<group>"; };
 		A53F50B7BA78D23ABA1EDE55636B474F /* Uber-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Uber-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
 		A672F5CA896EE27E873BDCC6E4F20CC9 /* p2.OAuth2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = p2.OAuth2.modulemap; sourceTree = "<group>"; };
 		A9D537982C523EF50DDFD88B2CD23E4D /* OAuth2PasswordGrant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2PasswordGrant.swift; path = OAuth2/OAuth2PasswordGrant.swift; sourceTree = "<group>"; };
 		AA26631A87E18A3D53DD25DBF02C8962 /* ArchiveKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArchiveKey.swift; path = SwiftKeychain/SwiftKeychain/Keychain/ArchiveKey.swift; sourceTree = "<group>"; };
 		AC336A6730222A20E981D795D419AC1C /* OAuth2CodeGrant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrant.swift; path = OAuth2/OAuth2CodeGrant.swift; sourceTree = "<group>"; };
+		B2084E03242CDC1FD1ADD1191E237EDF /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		B2D1B66FEC5DBF9F8EE6C735EB19AA19 /* Keys-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keys-umbrella.h"; sourceTree = "<group>"; };
 		B8B6D8E20566B6A26999DA1531ED7FCE /* UBUserProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBUserProfile.m; path = Pod/Classes/Models/UBUserProfile.m; sourceTree = "<group>"; };
+		B9AD3BE9CA1F9BF7A7BFAA961425369E /* Keys.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Keys.modulemap; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAAB6F06F73234DCF8AEE826A86B6603 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
 		BD69AC7FA2BD6D5764FB3A5BD829BEFD /* UBProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBProduct.h; path = Pod/Classes/Models/UBProduct.h; sourceTree = "<group>"; };
-		BDA62246215CE0A9EF1BAB6CA9B50D79 /* Pods-BarRoulette-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BarRoulette-dummy.m"; sourceTree = "<group>"; };
-		BF4BE17C53F7AD85CA54C81A7787C54D /* Pods-BarRoulette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarRoulette.release.xcconfig"; sourceTree = "<group>"; };
-		C88DB6E6631AD658D397666FCEAB0964 /* Pods-BarRoulette-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BarRoulette-frameworks.sh"; sourceTree = "<group>"; };
+		C758C2A3DBEA6B3BA6644BB6AA17471B /* Pods-BarRouletteTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BarRouletteTests-resources.sh"; sourceTree = "<group>"; };
 		CB13106723FA87D5C4480AD7A6D79D58 /* UBRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBRequest.m; path = Pod/Classes/Models/UBRequest.m; sourceTree = "<group>"; };
 		D53B869878941609810CFC7EC4B13CD3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D607203650C1F02A83C05AAEEC5DB67B /* OAuth2ImplicitGrant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2ImplicitGrant.swift; path = OAuth2/OAuth2ImplicitGrant.swift; sourceTree = "<group>"; };
-		DC2F0FFA6812A68D20E552E642F92724 /* Pods_BarRoulette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarRoulette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D791B123558B6C8A6EAC3E5BD1FFEA63 /* Pods-BarRouletteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarRouletteTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC859104897C69A19520B4E85F1F6F83 /* Pods-BarRouletteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarRouletteTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E016EBCB3354C7404DB0158988DF6EEB /* OAuth2DynReg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2DynReg.swift; path = OAuth2/OAuth2DynReg.swift; sourceTree = "<group>"; };
 		E72DB4669B26D6C9A92164CCF1AD2A40 /* OAuth2Base.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Base.swift; path = OAuth2/OAuth2Base.swift; sourceTree = "<group>"; };
+		E97AB69FD81D94AA74AAA3763564700C /* p2_OAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = p2_OAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD7CCB2D5569B764B8570F659CA60F1 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
 		EEE0F0A38F394617726E9733D481E911 /* KeychainService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainService.swift; path = SwiftKeychain/SwiftKeychain/Keychain/KeychainService.swift; sourceTree = "<group>"; };
 		F007ACC91FF31DFCBFB48E3D4085A000 /* extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = extensions.swift; path = OAuth2/extensions.swift; sourceTree = "<group>"; };
 		F0267008E057CD3C71114BE976DDB52F /* UBRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBRequest.h; path = Pod/Classes/Models/UBRequest.h; sourceTree = "<group>"; };
 		F253424F23D4422CCD7A2EA153C703C8 /* UBTimeEstimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBTimeEstimate.m; path = Pod/Classes/Models/UBTimeEstimate.m; sourceTree = "<group>"; };
+		F34C1835FEDC5AC84CC31E4B69018CE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F405290EFC45D8783C9B9145A11203B1 /* Keys-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keys-prefix.pch"; sourceTree = "<group>"; };
+		F8909834967799A7229A7BFCBF63648B /* Pods-BarRoulette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarRoulette.release.xcconfig"; sourceTree = "<group>"; };
 		FB3B995407295AD8B9431B3FAD064398 /* Uber-iOS-SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Uber-iOS-SDK-umbrella.h"; sourceTree = "<group>"; };
 		FB5D34CB0A7F47E4C3608E7938D85E79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD47D051F2A39CA3F9CD980903956DD2 /* UberSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UberSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC1B177635CD525330839BE5AB599DA /* p2.OAuth2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2.OAuth2-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,25 +207,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4610AD3836A2758FF71C1DFE58A24D71 /* Frameworks */ = {
+		701682631A4391EE6E08543FF1C68795 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B671BF41060843798ACB8F912B4F9DD /* Foundation.framework in Frameworks */,
+				2F9A79126233516E7EDBC0F5CD853C94 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		711DAFEEC465822EA4FBC62AEFEB0373 /* Frameworks */ = {
+		71ED473CADE8B5D7A9BF071482C4BA36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AE7A8778CEE2E0457825E535CDC48BA /* Foundation.framework in Frameworks */,
+				8331499F8700411BF12271D597289A4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF9A273A46DC60E66C444C120DFBB89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF1142D9A5F21E1E5E9B9DE155E7B9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C623939E97641900097F9252FFAAD8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C3E76B7B9E0E6C4E73A0B9FABB920C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6F175E7E4C17F0F1A5DC819AB30446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE876FD85F1DD9E4849EDCD8D008CB87 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0177AA45E12D829965F16D4E13BDE87F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CD2B10DDC137258A1CEEF998F302292 /* Keys.framework */,
+				E97AB69FD81D94AA74AAA3763564700C /* p2_OAuth2.framework */,
+				2AF83879775E91EB9C903A7FAC176FED /* Pods.framework */,
+				91CE11DD75D64591E3CB4E2417E8DD4E /* Pods_BarRoulette.framework */,
+				A107976939426AFABE5CFB3B60A518DB /* Pods_BarRouletteTests.framework */,
+				93D71EEBD34D61F9A7EC9FCA84BEF0EC /* UberSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030399288BE749194910EF3FC9659BDE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1EC4E92F3AD1E27F5E3CD12060D2ED0 /* Keys */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		0C2F02401B45D40F7919667FD6FCC374 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,14 +299,40 @@
 			path = "../Target Support Files/Uber-iOS-SDK";
 			sourceTree = "<group>";
 		};
-		525DA3385D5DD70B1004A5B37BFA755D /* Products */ = {
+		39833E0542E8960B6709A013513F1F0F /* Pods-BarRouletteTests */ = {
 			isa = PBXGroup;
 			children = (
-				0EAEC68ACD19C6FC36BB5F449D3F9648 /* p2_OAuth2.framework */,
-				DC2F0FFA6812A68D20E552E642F92724 /* Pods_BarRoulette.framework */,
-				FD47D051F2A39CA3F9CD980903956DD2 /* UberSDK.framework */,
+				87BAF107A3E4CC3174537CE54FBFA6E3 /* Info.plist */,
+				7285E11850BD099B9084F362C7EA8727 /* Pods-BarRouletteTests.modulemap */,
+				9C01175876EA99081E3D0ABD0B11D39F /* Pods-BarRouletteTests-acknowledgements.markdown */,
+				95944F2EB7C2BA3D41A005B0698E4CAE /* Pods-BarRouletteTests-acknowledgements.plist */,
+				1533B8A239D30747CEC229326525FE5B /* Pods-BarRouletteTests-dummy.m */,
+				208BAC502DDDA3D07FAB6CF856573C56 /* Pods-BarRouletteTests-frameworks.sh */,
+				C758C2A3DBEA6B3BA6644BB6AA17471B /* Pods-BarRouletteTests-resources.sh */,
+				93EF81DFC3C69B85A58290E73AE29265 /* Pods-BarRouletteTests-umbrella.h */,
+				DC859104897C69A19520B4E85F1F6F83 /* Pods-BarRouletteTests.debug.xcconfig */,
+				D791B123558B6C8A6EAC3E5BD1FFEA63 /* Pods-BarRouletteTests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-BarRouletteTests";
+			path = "Target Support Files/Pods-BarRouletteTests";
+			sourceTree = "<group>";
+		};
+		4A71DF76C4E0E72A6DFF30F602A2A8B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DC6656B943BEF5762D6559179BFEEA2 /* Info.plist */,
+				B2084E03242CDC1FD1ADD1191E237EDF /* Pods.modulemap */,
+				0CCACCE0F1E6A10A8ED6130C7B9B2E65 /* Pods-acknowledgements.markdown */,
+				37385720CCD19D10CD1944ED4E00BFCD /* Pods-acknowledgements.plist */,
+				EDD7CCB2D5569B764B8570F659CA60F1 /* Pods-dummy.m */,
+				19C375EFFA5B48741A5219B61185B687 /* Pods-frameworks.sh */,
+				61D0D0ACED03638AC7691BC592AEE3F7 /* Pods-resources.sh */,
+				3BAE773B097EAF5688F9C9951A9A326A /* Pods-umbrella.h */,
+				BAAB6F06F73234DCF8AEE826A86B6603 /* Pods.debug.xcconfig */,
+				4D71502D40822B30F8FEFCE8FF1DE301 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
 		5878E755B78626D41314FECC063AB08A /* Pods */ = {
@@ -214,29 +348,26 @@
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				030399288BE749194910EF3FC9659BDE /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				5878E755B78626D41314FECC063AB08A /* Pods */,
-				525DA3385D5DD70B1004A5B37BFA755D /* Products */,
-				E3BD60C628F35EB620A310041B51C46A /* Targets Support Files */,
+				0177AA45E12D829965F16D4E13BDE87F /* Products */,
+				AA77B64B138DCCB65CF54C4E0D3BD989 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86804CD5B8431E6CB98C190F41320C48 /* Pods-BarRoulette */ = {
+		98241381C584DAC3F2C7CB901A0370D2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4E5FB031DA91C085A1F5764ED4B2D1A5 /* Info.plist */,
-				842823628CD54D80017F392954DF61D3 /* Pods-BarRoulette.modulemap */,
-				2BDA960B7448057B260BDDD89EF42EDB /* Pods-BarRoulette-acknowledgements.markdown */,
-				5D40D785E45E7BB5F5824960BCB102C3 /* Pods-BarRoulette-acknowledgements.plist */,
-				BDA62246215CE0A9EF1BAB6CA9B50D79 /* Pods-BarRoulette-dummy.m */,
-				C88DB6E6631AD658D397666FCEAB0964 /* Pods-BarRoulette-frameworks.sh */,
-				0BA9342B77466CB96DC5895D3093FE90 /* Pods-BarRoulette-resources.sh */,
-				240BFD4294E3532D1D13B7CB7141900F /* Pods-BarRoulette-umbrella.h */,
-				9633F95C6AB416678264474BFE1F5803 /* Pods-BarRoulette.debug.xcconfig */,
-				BF4BE17C53F7AD85CA54C81A7787C54D /* Pods-BarRoulette.release.xcconfig */,
+				39544049E5BBA148D6C5E37F851F2FCD /* Info.plist */,
+				B9AD3BE9CA1F9BF7A7BFAA961425369E /* Keys.modulemap */,
+				5870CA34720E6D960D711B90627F6F4F /* Keys.xcconfig */,
+				7404BD5FFEF33791C4DE3488F8F8780C /* Keys-dummy.m */,
+				F405290EFC45D8783C9B9145A11203B1 /* Keys-prefix.pch */,
+				B2D1B66FEC5DBF9F8EE6C735EB19AA19 /* Keys-umbrella.h */,
 			);
-			name = "Pods-BarRoulette";
-			path = "Target Support Files/Pods-BarRoulette";
+			name = "Support Files";
+			path = "../Target Support Files/Keys";
 			sourceTree = "<group>";
 		};
 		A1A29D8DCC2228F4E4F27F793B6C7F0C /* p2.OAuth2 */ = {
@@ -266,6 +397,45 @@
 			path = p2.OAuth2;
 			sourceTree = "<group>";
 		};
+		A1EC4E92F3AD1E27F5E3CD12060D2ED0 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A30EA548430A095D6E15024EA9F7D /* BarrouletteKeys.h */,
+				1148A5B1042A82ADB6B5B85D1092F982 /* BarrouletteKeys.m */,
+				98241381C584DAC3F2C7CB901A0370D2 /* Support Files */,
+			);
+			name = Keys;
+			path = CocoaPodsKeys;
+			sourceTree = "<group>";
+		};
+		A8969D4389E6D7D5DA1BF309DB192EF8 /* Pods-BarRoulette */ = {
+			isa = PBXGroup;
+			children = (
+				F34C1835FEDC5AC84CC31E4B69018CE5 /* Info.plist */,
+				A50DC8D8C4CFBBDEC24E1A9551571D12 /* Pods-BarRoulette.modulemap */,
+				190BA6F5BA1BFD041D4002B0D363A6B5 /* Pods-BarRoulette-acknowledgements.markdown */,
+				0D7A7979103408E255E07B32A94E9B33 /* Pods-BarRoulette-acknowledgements.plist */,
+				254FFA3972964814BE28D8604EA5CA44 /* Pods-BarRoulette-dummy.m */,
+				6A7EFBEE8C396D632C184062167D5FC7 /* Pods-BarRoulette-frameworks.sh */,
+				826CBFACB9FADA22AF4BDC9E68F263CE /* Pods-BarRoulette-resources.sh */,
+				40777BE44B3F0FCD52C3178EDE57181E /* Pods-BarRoulette-umbrella.h */,
+				077735297B4DA2B405713E71EBA32A46 /* Pods-BarRoulette.debug.xcconfig */,
+				F8909834967799A7229A7BFCBF63648B /* Pods-BarRoulette.release.xcconfig */,
+			);
+			name = "Pods-BarRoulette";
+			path = "Target Support Files/Pods-BarRoulette";
+			sourceTree = "<group>";
+		};
+		AA77B64B138DCCB65CF54C4E0D3BD989 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A71DF76C4E0E72A6DFF30F602A2A8B0 /* Pods */,
+				A8969D4389E6D7D5DA1BF309DB192EF8 /* Pods-BarRoulette */,
+				39833E0542E8960B6709A013513F1F0F /* Pods-BarRouletteTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,14 +450,6 @@
 				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		E3BD60C628F35EB620A310041B51C46A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				86804CD5B8431E6CB98C190F41320C48 /* Pods-BarRoulette */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		F24F3E26EEB4C98DE9373783299E6012 /* Uber-iOS-SDK */ = {
@@ -317,28 +479,53 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8D70FF59F0CBA555EE1721196E047712 /* Headers */ = {
+		1ED23DD347117AB0BC2B79C27194E93E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD704350A06825A09F48FD4D43A2FE92 /* Uber-iOS-SDK-umbrella.h in Headers */,
-				F7F93AED0D6B7C72C4B4EC16CDE679C6 /* UberSDK.h in Headers */,
-				5C8A7D984FE5804A8B6588EDCCFB0650 /* UBModelParsing.h in Headers */,
-				6B6940937FB7FB933FF5E54B490563E3 /* UBPriceEstimate.h in Headers */,
-				E79420E04DCCCC0095B2B3ED86A08FF7 /* UBProduct.h in Headers */,
-				A7F1CF0EC856CD3D042F422BF9967323 /* UBPromotion.h in Headers */,
-				BA9692FBDF0B0821416F556FC0220FC0 /* UBRequest.h in Headers */,
-				339F118AB35B6005960FCB694BC1779E /* UBTimeEstimate.h in Headers */,
-				6A054A9B23B96FDD9791FD5BBF2F069B /* UBUberAPI.h in Headers */,
-				231AC06D3BB690A9A7B74B859AFE9FD3 /* UBUserProfile.h in Headers */,
+				0A18E3BFF39B4A4D04C313B6DA034F67 /* Pods-BarRoulette-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6F749D0CDFC6129E324D3B96D865F16 /* Headers */ = {
+		31F3BB8748069E8503B7154477DCB459 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				998AD1C7B52E3772585ED51F663B4DA4 /* Pods-BarRoulette-umbrella.h in Headers */,
+				CD9715FF4C31FC70316AC57AAA024F10 /* Pods-BarRouletteTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F7B445634F3A9B40DF774B5B957A51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EF6FA29BFA5DAF6C5C0A57BF8B4CCC /* BarrouletteKeys.h in Headers */,
+				C2E7D97CD414E7BAE520BBB9A9049B94 /* Keys-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC635008B99DC75ED20D44763D4B26F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87369988B50AC4331F5080E5BB68B3A /* Uber-iOS-SDK-umbrella.h in Headers */,
+				AFBF832085A2E271C3630FE323B3E33A /* UberSDK.h in Headers */,
+				5F17DD772D43D72120AE5FBE908CEFD7 /* UBModelParsing.h in Headers */,
+				C374FFB36CA8A6DA045CEC7802127588 /* UBPriceEstimate.h in Headers */,
+				9AA50D65C65D494C80E81869EF7ECB55 /* UBProduct.h in Headers */,
+				81B3DF8DB05066746365B697FE1514C8 /* UBPromotion.h in Headers */,
+				C8B7480484406E6EF8286D534FA638A5 /* UBRequest.h in Headers */,
+				D728380D67AB2E12D4C3BC9D6CFB548E /* UBTimeEstimate.h in Headers */,
+				C7D5858D372E2E9CBE325947A752CC66 /* UBUberAPI.h in Headers */,
+				E928BFC09D477B7376C783774FA3AA0F /* UBUserProfile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C75DAEECC63AC44CFA4278B26B1801 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFF112EA759340619359157DCEBFCFA /* Pods-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,40 +540,40 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		316BA2BAB21DAF267C5FB9FE41D1DDBD /* Uber-iOS-SDK */ = {
+		4A19CAEE62BFF12C048C089CEFF9C710 /* Pods-BarRouletteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A3DFCE8487C80DA836BAF74C17A0D4F /* Build configuration list for PBXNativeTarget "Uber-iOS-SDK" */;
+			buildConfigurationList = 8DA3626CC4B9035D68B65FDADFC59569 /* Build configuration list for PBXNativeTarget "Pods-BarRouletteTests" */;
 			buildPhases = (
-				B6DE9E2FCBDA6F577DD03131DCA0AD50 /* Sources */,
-				711DAFEEC465822EA4FBC62AEFEB0373 /* Frameworks */,
-				8D70FF59F0CBA555EE1721196E047712 /* Headers */,
+				1CB8150893250FA08A7A9AB3E1904EB1 /* Sources */,
+				9FF9A273A46DC60E66C444C120DFBB89 /* Frameworks */,
+				31F3BB8748069E8503B7154477DCB459 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4CDE39B2D0C6876AEE10A5ADCEB0B689 /* PBXTargetDependency */,
 			);
-			name = "Uber-iOS-SDK";
-			productName = "Uber-iOS-SDK";
-			productReference = FD47D051F2A39CA3F9CD980903956DD2 /* UberSDK.framework */;
+			name = "Pods-BarRouletteTests";
+			productName = "Pods-BarRouletteTests";
+			productReference = A107976939426AFABE5CFB3B60A518DB /* Pods_BarRouletteTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		800EF43299A663FDCA5CBCA3B6BFDE13 /* Pods-BarRoulette */ = {
+		8D84C45177FA5F0408F68A0AD7A747ED /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8AA1EF5F8BC548E63A9A2670766887A /* Build configuration list for PBXNativeTarget "Pods-BarRoulette" */;
+			buildConfigurationList = F83FA9F6CE1584D3B3BD70CAF22C2038 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				1680593298C3E3B24A3E95EC28241386 /* Sources */,
-				4610AD3836A2758FF71C1DFE58A24D71 /* Frameworks */,
-				E6F749D0CDFC6129E324D3B96D865F16 /* Headers */,
+				3D0F53F67BED69D8775FE5097AFDE3FD /* Sources */,
+				C623939E97641900097F9252FFAAD8C9 /* Frameworks */,
+				C5C75DAEECC63AC44CFA4278B26B1801 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE401804ECAD925C7C0E3FD4F2823A96 /* PBXTargetDependency */,
-				EF8C2368C1BFD3338367E542C9203921 /* PBXTargetDependency */,
+				D408B5EBDBA3D789E545F2A0235BE227 /* PBXTargetDependency */,
 			);
-			name = "Pods-BarRoulette";
-			productName = "Pods-BarRoulette";
-			productReference = DC2F0FFA6812A68D20E552E642F92724 /* Pods_BarRoulette.framework */;
+			name = Pods;
+			productName = Pods;
+			productReference = 2AF83879775E91EB9C903A7FAC176FED /* Pods.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9E3FADDDBC21ABCEFC82866ABD58D8AD /* p2.OAuth2 */ = {
@@ -403,7 +590,61 @@
 			);
 			name = p2.OAuth2;
 			productName = p2.OAuth2;
-			productReference = 0EAEC68ACD19C6FC36BB5F449D3F9648 /* p2_OAuth2.framework */;
+			productReference = E97AB69FD81D94AA74AAA3763564700C /* p2_OAuth2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9889FA9106A68E5BB39832472CE618D /* Uber-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B3C71E5DD339AADCC959376E14E53BC /* Build configuration list for PBXNativeTarget "Uber-iOS-SDK" */;
+			buildPhases = (
+				E54AD0C2C45CFE61BD695D63B1AC3206 /* Sources */,
+				CD6F175E7E4C17F0F1A5DC819AB30446 /* Frameworks */,
+				BC635008B99DC75ED20D44763D4B26F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uber-iOS-SDK";
+			productName = "Uber-iOS-SDK";
+			productReference = 93D71EEBD34D61F9A7EC9FCA84BEF0EC /* UberSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBFD82023CF819E37D8B623DC59F414E /* Pods-BarRoulette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5667D06D14C2F1E58D1B61E8F330CD13 /* Build configuration list for PBXNativeTarget "Pods-BarRoulette" */;
+			buildPhases = (
+				1F64AD9E12F4BB47417C0ACAD9DDAB95 /* Sources */,
+				701682631A4391EE6E08543FF1C68795 /* Frameworks */,
+				1ED23DD347117AB0BC2B79C27194E93E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2059868F4795763E79C972917481AEF2 /* PBXTargetDependency */,
+				4476C672AC7844802A584746DC434DF4 /* PBXTargetDependency */,
+				83F9A577EEA6AC1DADBE95A1FF712101 /* PBXTargetDependency */,
+			);
+			name = "Pods-BarRoulette";
+			productName = "Pods-BarRoulette";
+			productReference = 91CE11DD75D64591E3CB4E2417E8DD4E /* Pods_BarRoulette.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F32D052B04179AB9F26154B2F92C1532 /* Keys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE671B12876233F2225DB03A6DC3328C /* Build configuration list for PBXNativeTarget "Keys" */;
+			buildPhases = (
+				F2849B3A565BAD2C6B0FB04451A21B04 /* Sources */,
+				71ED473CADE8B5D7A9BF071482C4BA36 /* Frameworks */,
+				79F7B445634F3A9B40DF774B5B957A51 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keys;
+			productName = Keys;
+			productReference = 6CD2B10DDC137258A1CEEF998F302292 /* Keys.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -423,23 +664,42 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 525DA3385D5DD70B1004A5B37BFA755D /* Products */;
+			productRefGroup = 0177AA45E12D829965F16D4E13BDE87F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				F32D052B04179AB9F26154B2F92C1532 /* Keys */,
 				9E3FADDDBC21ABCEFC82866ABD58D8AD /* p2.OAuth2 */,
-				800EF43299A663FDCA5CBCA3B6BFDE13 /* Pods-BarRoulette */,
-				316BA2BAB21DAF267C5FB9FE41D1DDBD /* Uber-iOS-SDK */,
+				8D84C45177FA5F0408F68A0AD7A747ED /* Pods */,
+				CBFD82023CF819E37D8B623DC59F414E /* Pods-BarRoulette */,
+				4A19CAEE62BFF12C048C089CEFF9C710 /* Pods-BarRouletteTests */,
+				C9889FA9106A68E5BB39832472CE618D /* Uber-iOS-SDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1680593298C3E3B24A3E95EC28241386 /* Sources */ = {
+		1CB8150893250FA08A7A9AB3E1904EB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				064C81182EEA85CC291AA994F7DE0416 /* Pods-BarRoulette-dummy.m in Sources */,
+				7EF6F8B52BA318CCE02F59D45F967572 /* Pods-BarRouletteTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F64AD9E12F4BB47417C0ACAD9DDAB95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C2CE2415EC1446C4C599BD65400688 /* Pods-BarRoulette-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0F53F67BED69D8775FE5097AFDE3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE0801EB5ED8CDDB0689E54C75BBC33 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,42 +730,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6DE9E2FCBDA6F577DD03131DCA0AD50 /* Sources */ = {
+		E54AD0C2C45CFE61BD695D63B1AC3206 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCA55532547A26B9F667FDF77A72E52E /* Uber-iOS-SDK-dummy.m in Sources */,
-				B79448BF5AB9439B096CE18F605A9D5A /* UBPriceEstimate.m in Sources */,
-				D039F1CD67205971750FEC1265EF45BF /* UBProduct.m in Sources */,
-				F002B4F6A3B2559B97E4BF7BBBDEF7AD /* UBPromotion.m in Sources */,
-				5417757B7F7972B676AB15E2031DADB0 /* UBRequest.m in Sources */,
-				038451A10C5B69596298553ED5C232FC /* UBTimeEstimate.m in Sources */,
-				949E4ED997E1A0409E154F0982885302 /* UBUberAPI.m in Sources */,
-				7DE12AAF552FC42FD0464124853BEC52 /* UBUserProfile.m in Sources */,
+				E819D274A1E53E5207F07157294A3DC2 /* Uber-iOS-SDK-dummy.m in Sources */,
+				61D6275973960B15327E75A4F2A9E185 /* UBPriceEstimate.m in Sources */,
+				493883578DFDF1B74B5F2A7FDAE6AD9C /* UBProduct.m in Sources */,
+				6871061983A71F7E47C6C87B1877DC09 /* UBPromotion.m in Sources */,
+				721A131D811DDB4875E584F92127A1F6 /* UBRequest.m in Sources */,
+				EAF12C31F1F2BFFD065583EF16498264 /* UBTimeEstimate.m in Sources */,
+				587454D7261BA4893979DDE674D4E2C1 /* UBUberAPI.m in Sources */,
+				79890A93AB3A383DC2CF399F3388D508 /* UBUserProfile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2849B3A565BAD2C6B0FB04451A21B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26B924A4A5964F0CB47739C04E8137F /* BarrouletteKeys.m in Sources */,
+				1D16555F6B22C6A2DB9D5C0919A3D889 /* Keys-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE401804ECAD925C7C0E3FD4F2823A96 /* PBXTargetDependency */ = {
+		2059868F4795763E79C972917481AEF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Keys;
+			target = F32D052B04179AB9F26154B2F92C1532 /* Keys */;
+			targetProxy = E13B80D613ABEBEBA7165015A9EF6317 /* PBXContainerItemProxy */;
+		};
+		4476C672AC7844802A584746DC434DF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Uber-iOS-SDK";
-			target = 316BA2BAB21DAF267C5FB9FE41D1DDBD /* Uber-iOS-SDK */;
-			targetProxy = 7BC9D982B25480ED110B7986ED57D105 /* PBXContainerItemProxy */;
+			target = C9889FA9106A68E5BB39832472CE618D /* Uber-iOS-SDK */;
+			targetProxy = 10C7AFFA58EB571052F4F6E8DF42A6CE /* PBXContainerItemProxy */;
 		};
-		EF8C2368C1BFD3338367E542C9203921 /* PBXTargetDependency */ = {
+		4CDE39B2D0C6876AEE10A5ADCEB0B689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Keys;
+			target = F32D052B04179AB9F26154B2F92C1532 /* Keys */;
+			targetProxy = 1F92BFBE076DD13FAFE0F460606A1896 /* PBXContainerItemProxy */;
+		};
+		83F9A577EEA6AC1DADBE95A1FF712101 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = p2.OAuth2;
 			target = 9E3FADDDBC21ABCEFC82866ABD58D8AD /* p2.OAuth2 */;
-			targetProxy = 7E654F19765DD2D4E199CCB799B04AB7 /* PBXContainerItemProxy */;
+			targetProxy = 8B60892E890A198F1AC13548D8A0F10C /* PBXContainerItemProxy */;
+		};
+		D408B5EBDBA3D789E545F2A0235BE227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Keys;
+			target = F32D052B04179AB9F26154B2F92C1532 /* Keys */;
+			targetProxy = C86326C684A6CEFE7731CD91DD3AD820 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2ADC040C953C602C0C97D2587FC1D038 /* Debug */ = {
+		049DF8CA70EF383AC4F46828B7FD2CC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9633F95C6AB416678264474BFE1F5803 /* Pods-BarRoulette.debug.xcconfig */;
+			baseConfigurationReference = 7B3882E6018F3518D80F34DDE47BAA33 /* Uber-iOS-SDK.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -514,25 +801,21 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BarRoulette/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Uber-iOS-SDK/Uber-iOS-SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Uber-iOS-SDK/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BarRoulette/Pods-BarRoulette.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_BarRoulette;
+				MODULEMAP_FILE = "Target Support Files/Uber-iOS-SDK/Uber-iOS-SDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UberSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -568,6 +851,66 @@
 			};
 			name = Release;
 		};
+		52CA50FB90C93C8B30A780C9A95155E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8909834967799A7229A7BFCBF63648B /* Pods-BarRoulette.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BarRoulette/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BarRoulette/Pods-BarRoulette.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BarRoulette;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F0E830A417C10F97AFD25FCBD3BEBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D791B123558B6C8A6EAC3E5BD1FFEA63 /* Pods-BarRouletteTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BarRouletteTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BarRouletteTests/Pods-BarRouletteTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BarRouletteTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7047A0C845300A55CB47C77A775B99EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 474B01220A5ED00017D0AD6BDC63E333 /* p2.OAuth2.xcconfig */;
@@ -596,9 +939,9 @@
 			};
 			name = Debug;
 		};
-		91C966C23A831720959D7D5AA8723A99 /* Release */ = {
+		7483B1AB31672E7112019D8114211CC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B3882E6018F3518D80F34DDE47BAA33 /* Uber-iOS-SDK.xcconfig */;
+			baseConfigurationReference = DC859104897C69A19520B4E85F1F6F83 /* Pods-BarRouletteTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -607,21 +950,54 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Uber-iOS-SDK/Uber-iOS-SDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Uber-iOS-SDK/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BarRouletteTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Uber-iOS-SDK/Uber-iOS-SDK.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = UberSDK;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BarRouletteTests/Pods-BarRouletteTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BarRouletteTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		8264C36CF493E8CC12D26F676E16A0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAAB6F06F73234DCF8AEE826A86B6603 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -662,9 +1038,9 @@
 			};
 			name = Debug;
 		};
-		E9F0B2647F99616897BAAC797E0B5B73 /* Release */ = {
+		B2D9A01EB3847CBBA74EB191BDE30F65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF4BE17C53F7AD85CA54C81A7787C54D /* Pods-BarRoulette.release.xcconfig */;
+			baseConfigurationReference = 077735297B4DA2B405713E71EBA32A46 /* Pods-BarRoulette.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -679,11 +1055,42 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BarRoulette/Pods-BarRoulette.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_BarRoulette;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0BF76DC0940FD2FE27FB748CE7788CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D71502D40822B30F8FEFCE8FF1DE301 /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -691,6 +1098,87 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		E3175368A75C57458BAB4EACBFC484F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5870CA34720E6D960D711B90627F6F4F /* Keys.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Keys/Keys-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Keys/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Keys/Keys.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Keys;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F07531A7F7BDEFBBF8883DEDCA33BC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5870CA34720E6D960D711B90627F6F4F /* Keys.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Keys/Keys-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Keys/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Keys/Keys.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Keys;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F59C889760FBBFC2F292CEDB40EB248D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3882E6018F3518D80F34DDE47BAA33 /* Uber-iOS-SDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Uber-iOS-SDK/Uber-iOS-SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Uber-iOS-SDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Uber-iOS-SDK/Uber-iOS-SDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UberSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F770004BDD52E5EDF49CA7DCA37D1465 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -719,50 +1207,50 @@
 			};
 			name = Release;
 		};
-		FD3BF479728783740DD2DD8D1B2CADF7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B3882E6018F3518D80F34DDE47BAA33 /* Uber-iOS-SDK.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Uber-iOS-SDK/Uber-iOS-SDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Uber-iOS-SDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Uber-iOS-SDK/Uber-iOS-SDK.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = UberSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A3DFCE8487C80DA836BAF74C17A0D4F /* Build configuration list for PBXNativeTarget "Uber-iOS-SDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD3BF479728783740DD2DD8D1B2CADF7 /* Debug */,
-				91C966C23A831720959D7D5AA8723A99 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
 				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5667D06D14C2F1E58D1B61E8F330CD13 /* Build configuration list for PBXNativeTarget "Pods-BarRoulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D9A01EB3847CBBA74EB191BDE30F65 /* Debug */,
+				52CA50FB90C93C8B30A780C9A95155E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B3C71E5DD339AADCC959376E14E53BC /* Build configuration list for PBXNativeTarget "Uber-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59C889760FBBFC2F292CEDB40EB248D /* Debug */,
+				049DF8CA70EF383AC4F46828B7FD2CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA3626CC4B9035D68B65FDADFC59569 /* Build configuration list for PBXNativeTarget "Pods-BarRouletteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7483B1AB31672E7112019D8114211CC9 /* Debug */,
+				6F0E830A417C10F97AFD25FCBD3BEBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE671B12876233F2225DB03A6DC3328C /* Build configuration list for PBXNativeTarget "Keys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3175368A75C57458BAB4EACBFC484F2 /* Debug */,
+				F07531A7F7BDEFBBF8883DEDCA33BC17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -776,11 +1264,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8AA1EF5F8BC548E63A9A2670766887A /* Build configuration list for PBXNativeTarget "Pods-BarRoulette" */ = {
+		F83FA9F6CE1584D3B3BD70CAF22C2038 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2ADC040C953C602C0C97D2587FC1D038 /* Debug */,
-				E9F0B2647F99616897BAAC797E0B5B73 /* Release */,
+				8264C36CF493E8CC12D26F676E16A0EB /* Debug */,
+				E0BF76DC0940FD2FE27FB748CE7788CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
