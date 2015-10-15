@@ -1,1 +1,0 @@
-../../../../Uber-iOS-SDK/Pod/Classes/Models/UBPromotion.h

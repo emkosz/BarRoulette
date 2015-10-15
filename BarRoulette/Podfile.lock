@@ -1,10 +1,13 @@
 PODS:
+  - p2.OAuth2 (2.0.1)
   - Uber-iOS-SDK (0.1.0)
 
 DEPENDENCIES:
+  - p2.OAuth2 (~> 2.0)
   - Uber-iOS-SDK
 
 SPEC CHECKSUMS:
+  p2.OAuth2: 6d4183a4dcec05cc6df3bab1110551854a116b9c
   Uber-iOS-SDK: e0f595c57a5942311b0c266f7a81984dbc1883e3
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

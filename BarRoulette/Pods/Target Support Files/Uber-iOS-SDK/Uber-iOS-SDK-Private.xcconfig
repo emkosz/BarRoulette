@@ -1,5 +1,0 @@
-#include "Uber-iOS-SDK.xcconfig"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/Uber-iOS-SDK" "${PODS_ROOT}/Headers/Private/Uber-iOS-SDK/UberSDK" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Uber-iOS-SDK" "${PODS_ROOT}/Headers/Public/Uber-iOS-SDK/UberSDK"
-PODS_ROOT = ${SRCROOT}
-SKIP_INSTALL = YES

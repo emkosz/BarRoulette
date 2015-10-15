@@ -9,10 +9,6 @@
 import Foundation
 import CoreLocation
 
-
-// requests to  https://sandbox-api.uber.com/<version>
-
-
 let ApiHostUber = "https://sandbox-api.uber.com/v1/sandbox"
 
 extension UBUberAPI {

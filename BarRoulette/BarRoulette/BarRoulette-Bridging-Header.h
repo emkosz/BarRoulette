@@ -3,4 +3,4 @@
 //
 
 #import "NSURLRequest+OAuth.h"
-#import "UberSDK.h"
+#import <UberSDK/Uber-iOS-SDK-umbrella.h>

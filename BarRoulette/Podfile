@@ -1,8 +1,12 @@
 # Uncomment this line to define a global platform for your projectplatform :ios, '6.0'
 
+use_frameworks!
+
 target 'BarRoulette' do
 
+
   pod "Uber-iOS-SDK"
+  pod 'p2.OAuth2', '~> 2.0'
 
 end
 

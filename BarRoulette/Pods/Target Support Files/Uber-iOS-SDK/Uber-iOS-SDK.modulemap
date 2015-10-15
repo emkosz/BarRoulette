@@ -1,0 +1,6 @@
+framework module UberSDK {
+  umbrella header "Uber-iOS-SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

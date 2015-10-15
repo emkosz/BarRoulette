@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1C3FE5DE3B8F77C500D07110'
-               BlueprintName = 'Uber-iOS-SDK'
+               BlueprintIdentifier = 'D215A257FFF4791955A26A61'
+               BlueprintName = 'p2.OAuth2'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'UberSDK.framework'>
+               BuildableName = 'p2_OAuth2.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
